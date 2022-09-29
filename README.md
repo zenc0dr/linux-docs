@@ -6,6 +6,8 @@
 
 > Большинство статей касаются Debian/Debian based дистрибутивов linux (Debian, Ubuntu, Mint)
 
+
+
 ### Управление Linux
 
 [Операции с файлами](docs/file-operations.md)
@@ -13,6 +15,8 @@
 [Основы bash](docs/bash.md)
 
 [Sudoers - Запуск без ввода пароля](docs/sudoers.md)
+
+[APT - Управление пакетами](docs/apt.md)
 
 
 
@@ -25,3 +29,7 @@
 ###### Архиваторы
 
 [Zip](docs/zip.md) - Архивирование zip
+
+###### Менеджеры пакетов
+
+[Snap](docs/snap.md)
