@@ -12,6 +12,8 @@
 
 [Операции с файлами](docs/file-operations.md)
 
+[Системное окружение](docs/envelopment.md)
+
 [Основы bash](docs/bash.md)
 
 [Sudoers - Запуск без ввода пароля](docs/sudoers.md)

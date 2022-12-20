@@ -10,7 +10,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ub
 sudo apt update
 ```
 
-Copy
+
 
 После этого установите пакет Postgres вместе с пакетом `-contrib`, который содержит дополнительные утилиты и функциональные возможности:
 
@@ -18,7 +18,7 @@ Copy
 sudo apt install postgresql postgresql-contrib
 ```
 
-Copy
+
 
 ## Шаг 2 — Использование ролей и баз данных в PostgreSQL
 
@@ -32,7 +32,7 @@ Copy
 sudo -i -u postgres
 ```
 
-Copy
+
 
 Затем вы можете получить доступ к командной строке Postgres с помощью команды:
 
@@ -40,7 +40,7 @@ Copy
 psql
 ```
 
-Copy
+
 
 В результате вы можете получить доступ к командной строке PostgreSQL, а уже отсюда свободно взаимодействовать с системой управления базами данных.
 
@@ -50,7 +50,7 @@ Copy
 \q
 ```
 
-Copy
+
 
 В результате вы вернетесь в командную строку `postgres` в Linux.
 
@@ -60,7 +60,7 @@ Copy
 sudo -u postgres psql
 ```
 
-Copy
+
 
 Это позволит выполнить вход в Postgres без необходимости использования промежуточной командной строки `bash`.
 
@@ -70,7 +70,7 @@ Copy
 \q
 ```
 
-Copy
+
 
 ## Шаг 3 — Создание новой роли
 
